@@ -1,0 +1,17 @@
+# Missing Shoes
+# Chef owns several pairs of shoes, unfortunately he has so many that he lost track of them!
+# Each pair of shoes consists of one left shoe and one right shoe.
+# Looking at his collection, Chef counts L left shoes and R right shoes.
+# What's the minimum number of shoes Chef is missing?
+# Input Format
+# 	The only line of input will contain two space-separated integers L and R – the number of left shoes and right shoes, respectively.
+# Output Format
+# Output a single integer: the minimum number of shoes Chef is missing.
+# Constraints
+# 	1≤L,R≤10
+
+
+
+(l,r) = map(int,input().split())
+
+print(abs(l-r))
